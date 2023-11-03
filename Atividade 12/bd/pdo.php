@@ -1,8 +1,8 @@
 <?php
     $host = 'localhost';
-    $dbname = 'vitorhugo';
+    $dbname = 'leonardo';
     $user = 'postgres';
-    $password = '1234';
+    $password = '123';
 
     try {
         $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);

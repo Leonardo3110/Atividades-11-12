@@ -5,8 +5,8 @@
         $username = $_POST["username"];
         $password = $_POST["password"];
 
-        if ($username === "vitorhugo" && $password === "1028568") {
-            $_SESSION["vitorhugo"] = $username;
+        if ($username === "leonardo" && $password === "123456") {
+            $_SESSION["leonardo"] = $username;
             $_SESSION["login_time"] = time();
             $_SESSION["last_request_time"] = time();
             

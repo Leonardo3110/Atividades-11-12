@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    if (!isset($_SESSION["jovenir"]) || !isset($_SESSION["login_time"]) || !isset($_SESSION["last_request_time"])) {
+    if (!isset($_SESSION["leonardo"]) || !isset($_SESSION["login_time"]) || !isset($_SESSION["last_request_time"])) {
         echo '<script>alert("Os dados da sessão foram perdidos. Por favor, faça login novamente.");</script>';
         header("Location: login.php");
         exit();
